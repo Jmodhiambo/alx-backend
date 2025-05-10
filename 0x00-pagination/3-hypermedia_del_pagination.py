@@ -49,7 +49,10 @@ class Server:
         current_index = index
         next_index = index
 
-        while len(data) < page_size and next_index < len(indexed_data) + page_size:
+        while (
+            len(data) < page_size
+            and next_index < len(indexed_data) + page_size
+        ):
             item = indexed_data.get(next_index)
             if item:
                 data.append(item)

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Basic Flask app with Babel"""
 from flask import Flask, render_template, request
-from flask_babel import Babel, _
+from flask_babel import Babel, gettext as _
 
 
 class Config:
@@ -32,7 +32,7 @@ def get_locale():
 @app.route('/')
 def index():
     """Home page"""
-    return render_template('3-index.html')
+    return render_template('4-index.html')
 
 
 if __name__ == "__main__":

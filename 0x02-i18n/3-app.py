@@ -2,7 +2,7 @@
 """Basic Flask app with Babel"""
 
 from flask import Flask, render_template, request
-from flask_babel import Babel, gettext as _
+from flask_babel import Babel
 from typing import Optional, List
 
 

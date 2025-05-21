@@ -72,7 +72,7 @@ def get_locale() -> Optional[str]:
 
 @app.route('/')
 def index() -> str:
-    """Home page"""
+    """Home page for the app"""
     return render_template('6-index.html')
 
 

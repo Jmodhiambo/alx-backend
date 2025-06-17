@@ -1,1 +1,9 @@
+# Redis
+redis-6.0.10/
+redis-*.tar.gz
+
+# Node
 node_modules/
+
+# Misc
+*.log
